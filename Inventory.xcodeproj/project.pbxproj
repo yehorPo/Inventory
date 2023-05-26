@@ -11,6 +11,10 @@
 		0FCE47282A20CE24005B9C96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE47272A20CE24005B9C96 /* ContentView.swift */; };
 		0FCE472A2A20CE25005B9C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE47292A20CE25005B9C96 /* Assets.xcassets */; };
 		0FCE472D2A20CE25005B9C96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE472C2A20CE25005B9C96 /* Preview Assets.xcassets */; };
+		0FCE47342A20CE54005B9C96 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE47332A20CE54005B9C96 /* Item.swift */; };
+		0FCE47362A20D000005B9C96 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE47352A20D000005B9C96 /* AddItemView.swift */; };
+		0FCE47382A20E2FF005B9C96 /* StateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE47372A20E2FF005B9C96 /* StateManager.swift */; };
+		0FCE473A2A20E467005B9C96 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCE47392A20E467005B9C96 /* InventoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		0FCE47272A20CE24005B9C96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0FCE47292A20CE25005B9C96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FCE472C2A20CE25005B9C96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FCE47332A20CE54005B9C96 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0FCE47352A20D000005B9C96 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		0FCE47372A20E2FF005B9C96 /* StateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateManager.swift; sourceTree = "<group>"; };
+		0FCE47392A20E467005B9C96 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,14 @@
 		0FCE47242A20CE24005B9C96 /* Inventory */ = {
 			isa = PBXGroup;
 			children = (
+				0FCE47372A20E2FF005B9C96 /* StateManager.swift */,
 				0FCE47252A20CE24005B9C96 /* InventoryApp.swift */,
 				0FCE47272A20CE24005B9C96 /* ContentView.swift */,
 				0FCE47292A20CE25005B9C96 /* Assets.xcassets */,
 				0FCE472B2A20CE25005B9C96 /* Preview Content */,
+				0FCE47332A20CE54005B9C96 /* Item.swift */,
+				0FCE47352A20D000005B9C96 /* AddItemView.swift */,
+				0FCE47392A20E467005B9C96 /* InventoryView.swift */,
 			);
 			path = Inventory;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FCE47282A20CE24005B9C96 /* ContentView.swift in Sources */,
+				0FCE47342A20CE54005B9C96 /* Item.swift in Sources */,
 				0FCE47262A20CE24005B9C96 /* InventoryApp.swift in Sources */,
+				0FCE473A2A20E467005B9C96 /* InventoryView.swift in Sources */,
+				0FCE47382A20E2FF005B9C96 /* StateManager.swift in Sources */,
+				0FCE47362A20D000005B9C96 /* AddItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
